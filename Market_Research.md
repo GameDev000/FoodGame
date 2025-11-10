@@ -144,10 +144,11 @@
 ---
 
 ## נספח – מקורות מידע  
-א. Food market games – Wiseguy  
-ב. ADHD – *Italian Journal of Pediatrics*  
-ג. AppSensorTower – GoodPizza  
-ד. AppSensorTower – CookingMadness  
-ה. AppSensorTower – CookingDash  
+א. [Food market games – WiseGuy](https://www.wiseguyreports.com/reports/cooking-games-market)  
+ב. [ADHD – Italian Journal of Pediatrics](https://ijponline.biomedcentral.com/articles/10.1186/s13052-018-0545-2)  
+ג. [AppSensorTower – Good Pizza, Great Pizza](https://app.sensortower.com/overview/911121200?country=US)  
+ד. [AppSensorTower – CookingMadness](https://app.sensortower.com/overview/1323901884?country=US)  
+ה. [AppSensorTower – CookingDash](https://app.sensortower.com/overview/978866413?country=US)  
+
 
 </div>
