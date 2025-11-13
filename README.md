@@ -45,6 +45,6 @@
 
 <hr>
 
-![Blind Cow Concept Art](WhatsApp Image 2025-11-13 at 11.47.09.jpeg)
+![Blind Cow Concept Art](https://github.com/GameDev000/Sababich/blob/main/WhatsApp%20Image%202025-11-13%20at%2011.47.09.jpeg)
 
 </div>
