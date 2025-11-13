@@ -45,6 +45,6 @@
 
 <hr>
 
-![Sababich Game Preview](ae4342ea-ac96-4e20-8dfb-efa76608d248.png)
+![Blind Cow Concept Art](WhatsApp Image 2025-11-13 at 11.47.09.jpeg)
 
 </div>
