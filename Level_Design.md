@@ -5,7 +5,7 @@
 להלן פירוט השלבים, אלמנטים משתנים והדרגתיות הקושי בהתקדמות בשלבים:
 
 
-![Level Design Table](https://raw.githubusercontent.com/GameDev000/Sababich/main/Screenshot%202025-11-17%20133523.png)
+![Level Design Table](https://github.com/GameDev000/Sababich/blob/main/Screenshot%202025-11-17%20154700.png)
 
 כחלק מהמשחק ועלייה ברמות יתווסף אלמנט טיגון שידרוש מהשחקן לשמור על פוקוס תוך כדי הרכבת המנות: 
 
