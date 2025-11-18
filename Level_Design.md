@@ -77,7 +77,7 @@
     <li>PREP AREA – אזור עבודה כללי</li>
     <li>שורת UI תחתונה:
       <ul>
-        <li><strong>TIME</strong> – טיימר שלב</li>
+        <li><strong>זמן ממוצע לשלב</li>
         <li><strong>COINS</strong> – סך המטבעות שנצברו</li>
       </ul>
     </li>
@@ -124,7 +124,7 @@
     <li>FRY ZONE – מחבת אחת לחציל בלבד.</li>
     <li>שורת UI תחתונה:
       <ul>
-        <li><strong>TIME: 02:00 avg</strong> – זמן ממוצע לשלב.</li>
+        <li> 2 דק– זמן ממוצע לשלב.</li>
         <li><strong>COINS</strong> – המטבעות שהשחקן צובר.</li>
       </ul>
     </li>
@@ -176,7 +176,7 @@
     </li>
     <li>שורת UI תחתונה:
       <ul>
-        <li><strong>TIME: 04:00 avg</strong></li>
+        <li><strong>זמן ממוצע 4 דק</strong></li>
         <li><strong>COINS</strong> – סכום המטבעות בשלב</li>
       </ul>
     </li>
@@ -225,7 +225,7 @@
     <li>שורת UI תחתונה:
       <div dir="rtl" lang="he">
       <ul>
-        <li><strong>זמן ממוצע 2 דק</strong>
+        <li><strong>זמן ממוצע 4 דק</strong>
         <li><strong>COINS</strong> – המטבעות שהשחקן צובר.</li>
         <li><strong>מטרה 300-350 מטבעות</strong></li>
       </ul>
