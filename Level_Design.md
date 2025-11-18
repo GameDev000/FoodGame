@@ -69,7 +69,7 @@
 <div dir="rtl" lang="he">
   <p><strong>אגדה:</strong></p>
   <ul>
-    <li>C1 – לקוח יחיד בתור</li>
+    <li>לקוח יחיד בתור - c1</li>
     <li>SERVE COUNTER – דלפק הגשה והרכבת סביח</li>
     <li>PITA – פיתות</li>
     <li>EGG (hard) – ביצה קשה</li>
@@ -115,7 +115,7 @@
 <div dir="rtl" lang="he">
   <p><strong>אגדה:</strong></p>
   <ul>
-    <li>C1–C3 – עד שלושה לקוחות בתור בנפרד.</li>
+    <li>עשלושה לקוחות בתור בנפרד - c1-c3</li>
     <li>SERVE COUNTER – דלפק שבו מרכיבים את המנה ללקוח.</li>
     <li>PITA – פיתות.</li>
     <li>EGG – ביצים קשות מוכנות.</li>
@@ -159,7 +159,7 @@
 <div dir="rtl" lang="he">
   <p><strong>אגדה:</strong></p>
   <ul>
-    <li>C1–C5 – עד חמישה לקוחות בתור.</li>
+    <li>עד חמישה לקוחות בתור כאשר לכל היותר 2 במקביל - c1-c5</li>
     <li>SERVE COUNTER – דלפק הגשה.</li>
     <li>PITA – פיתות.</li>
     <li>EGG – ביצים קשות.</li>
@@ -211,7 +211,7 @@
 <div dir="rtl" lang="he">
   <p><strong>אגדה:</strong></p>
   <ul>
-    <li>C1–C8 – עד שמונה לקוחות בתור.</li>
+    <li>עד שמונה לקוחות בתור , כאשר לכל היותר 3 במקביל - c1-c8</li>
     <li>SERVE COUNTER – דלפק הכנה.</li>
     <li>PITA – פיתות.</li>
     <li>EGG – ביצה קשה.</li>
@@ -223,10 +223,11 @@
     <li>FRY ZONE B – טיגון צ'יפס.</li>
     <li>NOISE AREA – אזור הסחות (צעקות, מוזיקה חזקה).</li>
     <li>שורת UI תחתונה:
+      <div dir="rtl" lang="he">
       <ul>
-        <li><strong>TIME: 04:00 avg</strong></li>
-        <li><strong>COINS</strong></li>
-        <li><strong>TARGET: 300–350</strong></li>
+        <li><strong>TIME: 02:00 avg</strong> – זמן ממוצע לשלב.</li>
+        <li><strong>COINS</strong> – המטבעות שהשחקן צובר.</li>
+        <li><strong>מטרה 300-350 מטבעות</strong></li>
       </ul>
     </li>
   </ul>
