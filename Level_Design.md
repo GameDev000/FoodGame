@@ -4,17 +4,40 @@
 
 להלן פירוט השלבים, אלמנטים משתנים והדרגתיות הקושי בהתקדמות בשלבים:
 
-
 ![Level Design Table](https://github.com/GameDev000/Sababich/blob/main/Screenshot%202025-11-17%20154700.png)
 
 כחלק מהמשחק ועלייה ברמות יתווסף אלמנט טיגון שידרוש מהשחקן לשמור על פוקוס תוך כדי הרכבת המנות: 
 
-| רכיב           | אופן שימוש   | רמה שבה מופיע לראשונה | הערות                   |
-| -------------- | ------------ | --------------------- | ----------------------- |
-| **ביצה**       | טיגון מהיר   | Tutorial ומעלה        | עלולה להישרף ברמות קשות |
-| **חציל**       | טיגון בינוני | רמה 1 ומעלה                | דורש המתנה/הפיכה        |
-| **צ'יפס תפו"א/ בטטה** | טיגון קצר    | רמה 3                 | נדרש להימנע מבלבול בין 2 הסוגים ושריפה של המטוגנים |
-
+<table>
+<thead>
+  <tr>
+    <th>רכיב</th>
+    <th>אופן שימוש</th>
+    <th>רמה שבה מופיע לראשונה</th>
+    <th>הערות</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><strong>ביצה</strong></td>
+    <td>טיגון מהיר</td>
+    <td>Tutorial ומעלה</td>
+    <td>עלולה להישרף ברמות קשות</td>
+  </tr>
+  <tr>
+    <td><strong>חציל</strong></td>
+    <td>טיגון בינוני</td>
+    <td>רמה 1 ומעלה</td>
+    <td>דורש המתנה/הפיכה</td>
+  </tr>
+  <tr>
+    <td><strong>צ'יפס תפו"א/ בטטה</strong></td>
+    <td>טיגון קצר</td>
+    <td>רמה 3</td>
+    <td>נדרש להימנע מבלבול בין 2 הסוגים ושריפה של המטוגנים</td>
+  </tr>
+</tbody>
+</table>
 
 </div>
 
@@ -49,10 +72,15 @@
     <li>C1 – לקוח יחיד בתור</li>
     <li>SERVE COUNTER – דלפק הגשה והרכבת סביח</li>
     <li>PITA – פיתות</li>
-    <li>EGG (hard) – ביצה קשה </li>
+    <li>EGG (hard) – ביצה קשה</li>
     <li>TAHINI – טחינה</li>
-    <li>PREP AREA – אזור עבודה כללי </li>
-    <li>שורת UI תחתונה: <strong>TIME</strong> – טיימר שלב, <strong>COINS</strong> – סך המטבעות שנצברו</li>
+    <li>PREP AREA – אזור עבודה כללי</li>
+    <li>שורת UI תחתונה:
+      <ul>
+        <li><strong>TIME</strong> – טיימר שלב</li>
+        <li><strong>COINS</strong> – סך המטבעות שנצברו</li>
+      </ul>
+    </li>
   </ul>
   <hr>
 </div>
@@ -90,20 +118,19 @@
     <li>C1–C3 – עד שלושה לקוחות בתור בנפרד.</li>
     <li>SERVE COUNTER – דלפק שבו מרכיבים את המנה ללקוח.</li>
     <li>PITA – פיתות.</li>
-    <li>EGG  – ביצים קשות מוכנות.</li>
+    <li>EGG – ביצים קשות מוכנות.</li>
     <li>EGGPL – חציל לפני טיגון.</li>
     <li>TAHINI – טחינה.</li>
-    <li>FRY ZONE / FRY-EGGPL ONLY – מחבת אחת לחציל בלבד (טיגון בינוני, דורש זמן).</li>
+    <li>FRY ZONE – מחבת אחת לחציל בלבד.</li>
     <li>שורת UI תחתונה:
       <ul>
-        <li><strong>TIME: 02:00 avg</strong> – זמן ממוצע לשלב (כ־2 דקות).</li>
-        <li><strong>COINS</strong> – המטבעות שהשחקן צובר מכל מנה מדויקת.</li>
+        <li><strong>TIME: 02:00 avg</strong> – זמן ממוצע לשלב.</li>
+        <li><strong>COINS</strong> – המטבעות שהשחקן צובר.</li>
       </ul>
     </li>
   </ul>
   <hr>
 </div>
-
 
 <div dir="rtl" lang="he">
   <h2>שלב 2 – בינוני (יפן)</h2>
@@ -118,9 +145,9 @@
 +-----------------------------------------------+
 |   C1      C2      C3      C4      C5         |
 |-----------------------------------------NOISE|
-|             SERVE COUNTER               AREA |
-|-----------------------------------------TEL  |
-| PITA    EGG    EGGPL    TAHINI  SOY     ♫   |
+|             SERVE COUNTER               AREA  |
+|-----------------------------------------TEL   |
+| PITA    EGG    EGGPL    TAHINI  SOY     ♫    |
 |                                             |
 |           FRY ZONE (EGGPL ONLY)             |
 +---------------------------------------------+
@@ -132,32 +159,30 @@
 <div dir="rtl" lang="he">
   <p><strong>אגדה:</strong></p>
   <ul>
-    <li>C1–C5 – עד חמישה לקוחות בתור (לעיתים 6, כפי שמוגדר בטבלה).</li>
+    <li>C1–C5 – עד חמישה לקוחות בתור.</li>
     <li>SERVE COUNTER – דלפק הגשה.</li>
     <li>PITA – פיתות.</li>
     <li>EGG – ביצים קשות.</li>
-    <li>EGGPL – חציל (לטיגון).</li>
+    <li>EGGPL – חציל לטיגון.</li>
     <li>TAHINI – טחינה.</li>
-    <li>SOY – סויה (רכיב חדש בשלב זה).</li>
-    <li>FRY ZONE – אזור טיגון: חציל בלבד, דורש תשומת לב לזמן.</li>
+    <li>SOY – סויה.</li>
+    <li>FRY ZONE – אזור טיגון חציל.</li>
     <li>NOISE AREA / TEL / ♫ – אזור הסחות הדעת:
       <ul>
-        <li>צלצול טלפון, קפיצת הודעות.</li>
-        <li>מוזיקת רקע משתנה.</li>
-        <li>קריאות רקע (לקוחות מתלוננים מרחוק).</li>
+        <li>צלצול טלפון</li>
+        <li>מוזיקת רקע</li>
+        <li>קריאות רקע</li>
       </ul>
-      השחקן רואה/שומע משם גירויים שמנסים להסיח אותו מהדלפק.
     </li>
     <li>שורת UI תחתונה:
       <ul>
-        <li><strong>TIME: 04:00 avg</strong> – זמן שלב טיפוסי בינוני.</li>
-        <li><strong>COINS</strong> – סכום המטבעות שהושג עד כה בשלב.</li>
+        <li><strong>TIME: 04:00 avg</strong></li>
+        <li><strong>COINS</strong> – סכום המטבעות בשלב</li>
       </ul>
     </li>
   </ul>
   <hr>
 </div>
-
 
 <div dir="rtl" lang="he">
   <h2>שלב 3 – קשה (ארה"ב)</h2>
@@ -166,20 +191,19 @@
     הטיגון מורכב יותר – חציל וצ'יפס במקביל, אזור הסחות גדול ורועש, והמטבעות קריטיים לעבור את השלב.
   </p>
 </div>
-
-<div dir="ltr">
+<div dir="rtl" lang="he">
 <pre>
 +---------------------------------------------------+
 | C1   C2   C3   C4   C5   C6   C7   C8             |
 |------------------------------------------------NOI|
-|                 SERVE COUNTER                 SE | 
+|                 SERVE COUNTER                 SE  | 
 |------------------------------------------------ CT|
-| PITA    EGG\    EGGPL    TAHINI  SOY   FRIES      |
+| PITA    EGG    EGGPL    TAHINI  SOY   FRIES       |
 |                                                   |
-|    FRY ZONE A           |      FRY ZONE B        |
-|    [EGGPL]              |   [FRIES POT/BAT]      |
+|    FRY ZONE A           |      FRY ZONE B         |
+|    [EGGPL]              |   [FRIES POT/BAT]       |
 +-------------------------------------------------+
-| TIME: 04:00 avg      COINS: 000   TARGET: 300-350|
+| TIME: 04:00 avg      COINS: 000   TARGET: 300-350 |
 +-------------------------------------------------+
 </pre>
 </div>
@@ -187,31 +211,23 @@
 <div dir="rtl" lang="he">
   <p><strong>אגדה:</strong></p>
   <ul>
-    <li>C1–C8 – עד 3 לקוחות במקביל, עומס משמעותי על הדוכן.</li>
-    <li>SERVE COUNTER – דלפק ההכנה וההגשה המרכזי.</li>
+    <li>C1–C8 – עד שמונה לקוחות בתור.</li>
+    <li>SERVE COUNTER – דלפק הכנה.</li>
     <li>PITA – פיתות.</li>
-    <li>EGG (hard) – ביצים קשות.</li>
+    <li>EGG – ביצה קשה.</li>
     <li>EGGPL – חציל.</li>
     <li>TAHINI – טחינה.</li>
-    <li>SOY – רכיב סויה.</li>
-    <li>FRIES – צ'יפס תפו"א/בטטה (רכיב חדש ברמה זו).</li>
-    <li>FRY ZONE A – עמדת טיגון לחציל (נדרש ניהול זמן ומניעת שריפה).</li>
-    <li>FRY ZONE B – עמדת טיגון לצ'יפס (הפרדה בין תפו"א לבטטה – מנטלית במשחק).</li>
-    <li>NOISE / SECT – אזור הסחות דעת גדול:
-      <ul>
-        <li>צעקות לקוחות ("אני מחכה כבר 5 דקות!").</li>
-        <li>מוזיקה חזקה, אולי כרוז, משאיות/רחוב אמריקאי.</li>
-        <li>הפתעות כמו שליח שנכנס, הודעת מערכת, וכו'.</li>
-      </ul>
-    </li>
+    <li>SOY – סויה.</li>
+    <li>FRIES – צ'יפס.</li>
+    <li>FRY ZONE A – טיגון לחציל.</li>
+    <li>FRY ZONE B – טיגון צ'יפס.</li>
+    <li>NOISE AREA – אזור הסחות (צעקות, מוזיקה חזקה).</li>
     <li>שורת UI תחתונה:
       <ul>
-        <li><strong>TIME: 04:00 avg</strong> – זמן השלב (כ־4 דקות).</li>
-        <li><strong>COINS</strong> – סכום המטבעות שנצבר עד כה.</li>
-        <li><strong>TARGET: 300–350</strong> – טווח יעד המטבעות (כמו בטבלה – כדי לעבור שלב).</li>
+        <li><strong>TIME: 04:00 avg</strong></li>
+        <li><strong>COINS</strong></li>
+        <li><strong>TARGET: 300–350</strong></li>
       </ul>
     </li>
   </ul>
 </div>
-
-
