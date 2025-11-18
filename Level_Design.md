@@ -225,7 +225,7 @@
     <li>שורת UI תחתונה:
       <div dir="rtl" lang="he">
       <ul>
-        <li><strong>TIME: 02:00 avg</strong> – זמן ממוצע לשלב.</li>
+        <li><strong>זמן ממוצע 2 דק</strong>
         <li><strong>COINS</strong> – המטבעות שהשחקן צובר.</li>
         <li><strong>מטרה 300-350 מטבעות</strong></li>
       </ul>
