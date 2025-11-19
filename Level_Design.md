@@ -19,15 +19,9 @@
 </thead>
 <tbody>
   <tr>
-    <td><strong>ביצה</strong></td>
-    <td>טיגון מהיר</td>
-    <td>Tutorial ומעלה</td>
-    <td>עלולה להישרף ברמות קשות</td>
-  </tr>
-  <tr>
     <td><strong>חציל</strong></td>
     <td>טיגון בינוני</td>
-    <td>רמה 1 ומעלה</td>
+    <td>רמה 0 ומעלה</td>
     <td>דורש המתנה/הפיכה</td>
   </tr>
   <tr>
