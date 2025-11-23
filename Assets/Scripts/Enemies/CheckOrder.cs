@@ -5,7 +5,7 @@ public class CheckOrder : MonoBehaviour
 {
     [SerializeField] private SelectionList selectionList;
     [SerializeField] private List<string> correctOrder = new List<string> { "pitta", "tahini", "eggplant", "egg" };
-      private void OnMouseDown()
+    private void OnMouseDown()
     {
         if (selectionList == null)
         {

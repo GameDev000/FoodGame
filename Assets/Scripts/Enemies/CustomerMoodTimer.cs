@@ -3,12 +3,12 @@ using System.Collections;
 
 public class CustomerMoodTimer : MonoBehaviour
 {
-    [SerializeField] private Sprite[] moodFaces;  
-    [SerializeField] private float interval = 7f; 
+    [SerializeField] private Sprite[] moodFaces;
+    [SerializeField] private float interval = 7f;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float duration = 4f;
     private float elapsed = 0f;
-    
+
     private float timer = 0f;
     private int currentFace = 0;
     private bool moodStopped = false;
@@ -50,7 +50,7 @@ public class CustomerMoodTimer : MonoBehaviour
         StartCoroutine(WalkAwayAndDestroy());
 
     }
-    
+
 
     private IEnumerator WalkAwayAndDestroy()
     {
@@ -68,4 +68,4 @@ public class CustomerMoodTimer : MonoBehaviour
         Destroy(gameObject);
     }
 }
- 
+

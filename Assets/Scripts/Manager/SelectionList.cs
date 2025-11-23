@@ -51,7 +51,7 @@ public class SelectionList : MonoBehaviour
         selectedText.text = result;
     }
 
-      public bool IsSelectionMatching(List<string> correctOrder)
+    public bool IsSelectionMatching(List<string> correctOrder)
     {
         if (selectedIngredients.Count != correctOrder.Count)
             return false;
@@ -66,7 +66,7 @@ public class SelectionList : MonoBehaviour
                 Debug.Log("Missing item: " + item);
                 return false;
             }
-                
+
         }
 
         return true;

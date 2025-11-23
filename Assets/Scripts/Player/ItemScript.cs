@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-      [SerializeField] private string ingredientName = "pitta";
+    [SerializeField] private string ingredientName = "pitta";
 
     public void OnClick()
     {

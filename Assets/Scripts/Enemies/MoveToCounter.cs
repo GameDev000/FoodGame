@@ -9,8 +9,8 @@ public class MoveToCounter : MonoBehaviour
     {
         if (target == null)
         {
-          return;  
-        } 
-        transform.position = Vector2.MoveTowards(transform.position,target.position,speed * Time.deltaTime);
+            return;
+        }
+        transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
     }
 }
